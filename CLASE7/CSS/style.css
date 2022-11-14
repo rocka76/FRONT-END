@@ -1,0 +1,34 @@
+header{
+    background: #E6E6E6;
+    height: 120px
+   
+}
+
+.logo-batman    {
+    position: absolute;
+    left: 50%;
+    width: 70px;
+    height: 100px;
+    top: 20.91px;
+}
+
+.titulo  {
+    background-color: #C4C4C4;
+    color: #005677;
+    text-align: center;
+    margin-top: 0;
+}
+
+.subtitulo {
+    background-color: #C4C4C4;
+    color: #005677;
+    text-align: left
+}
+
+.footer {
+    background-color: #005677;
+    color: #FFFFFF;
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+}

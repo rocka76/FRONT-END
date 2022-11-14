@@ -1,0 +1,12 @@
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    color: #f3f3f3
+}

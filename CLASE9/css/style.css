@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.menu-superior{
+    background-color: #222222;
+    color: #F3F3F3;
+    display:flex;
+    justify-content: space-between;
+    padding: 8px 60px;
+    
+}
+
+.menu-superior> ul{
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    justify-content: space-around;
+}
+
+section>ul>li{
+    list-style: none;
+}
+
+.menu-logo{
+    background-color: #F0A83E;
+    color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    height: 62px;
+}
+
+#logo{
+    width: 166.38px;
+    height: 23px;
+}
+
+.menu-logo>nav>ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.menu-logo>nav>ul>li{
+    padding: 0 10px;
+    list-style: none;
+}
+
+.banner{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 30px;
+    text-align: center;
+}
+
+.banner>div>h2{
+    background-color: white;
+    color: #3C2313;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.banner>div>h3{
+    font-size: 16px;
+    padding: 30px;
+    width: 350px;
+}
+
+.banner>div>input{
+    background: #F0A83E;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+.elementos{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.productos{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.productos>h1{
+    color: #3C2313;
+    padding: 5px;
+    font-size: 40px;
+
+}
+.productos>nav>ul{
+    display: flex;
+    width: 400px;
+    justify-content: space-around;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.productos>nav>ul>li{
+    list-style: none;
+    color: #666666;
+}
+
+.cajas{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.cajas>article{
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+    background: #FBFAF6;
+    text-align: center;
+
+}
+
+.cajas>article>h5{
+    color: #F0A83E;
+    padding-bottom: 8px;
+}
+
+.contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto>h2{
+    font-size: 25px;
+    color: #3C2313;
+    padding: 15px;
+}
+
+.contacto>input{
+    background: #3C2313;
+    width: 340px;
+    height: 40px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.contacto>input::placeholder{
+    color: white;
+    font-size: 9px;
+}
+
+.btn-gris{
+    background: #8A8787;
+    color:white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    width: 100px;
+    
+}
+
+.btn-naranja{
+    background: #F0A83E;
+    color:white;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    width: 100px;
+}
+
+.suscribete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background: #F0A83E;
+    color: white;
+    margin-top: 40px;
+}
+
+.suscribete>div{
+    display: flex;
+    padding: 0 40px;
+    align-items: center;
+}
+
+.suscribete>div>p{
+    margin-left: 8px;
+    font-weight: 700;
+
+}
+
+.suscribete>div>input{
+    margin-left: 8px;
+}
+
+.suscribete>div>input[type=email]{
+   color: #A0A0A0;
+   background-color: white;
+   border-radius: 20px;
+   padding: 10px 20px;
+   border: none;
+   text-align: left;
+}
+
+.suscribete>div>input[type=email]::placeholder{
+    font-size: 9px;
+}
+
+.suscribete>div>input[type=button]{
+    color: white;
+    background-color: #3C2313;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: none;
+    text-align: center;
+}
+
+.datos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3C2313;
+    color: white;
+    padding: 30px;
+}
+
+.datos2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 15px;
+}
+.datos2>div{
+    padding-left: 20px;
+}
+
+h6{
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}

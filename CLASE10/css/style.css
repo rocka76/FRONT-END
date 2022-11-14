@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+.section{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.div1{
+    background-color: #1CD1B0;
+    width: 100%;
+    padding: 5px 20px;
+}
+
+.div2{
+    background-color: #00669F;
+    width: 100%;
+    padding: 25px 20px;
+    font-size: 28px;
+}
+
+.caja1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    border: 0.5px solid silver;
+    height: 500px;
+    position:relative;
+    width: 300px;
+    background: #F3F3F3;
+    border-radius: 15px;
+    box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+    margin: 100px 8px;
+
+}
+
+h2{
+    position: absolute;
+    top: 50%;
+}
+
+.caja1>p{
+    position: absolute;
+    top: 55%;
+    padding: 20px;
+    
+}
+
+.corazon{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 8px 8px;
+    z-index: 3;
+}
+
+.fondo-batman{
+position: absolute;
+top: 0;
+z-index: 1;
+
+}
+.foto-batman{
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    z-index: 2;
+}
+
+input{
+    position: absolute;
+    bottom: 20px;
+    background: #00669F;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+}
+
+footer{
+    background: #00669F;
+    color: white;
+    padding: 5px 20px;
+    
+}
